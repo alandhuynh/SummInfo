@@ -2,7 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>RiotAPIKey</key>
-	<string>Enter your personal Riot API key here.</string>
+	<key>RiotAPI</key>
+	<dict>
+		<key>APIKey</key>
+		<string>Your personal Riot API Key goes here.</string>
+	</dict>
 </dict>
 </plist>

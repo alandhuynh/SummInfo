@@ -56,15 +56,31 @@
 		D624DD7C1DC6A28700A219E1 /* SummInfo */ = {
 			isa = PBXGroup;
 			children = (
+				D6DAB24E1DC6B72500475060 /* Resources */,
 				D624DD7D1DC6A28700A219E1 /* AppDelegate.swift */,
 				D624DD7F1DC6A28700A219E1 /* ViewController.swift */,
-				D624DD8F1DC6B4BC00A219E1 /* Config.plist */,
 				D624DD811DC6A28700A219E1 /* Main.storyboard */,
 				D624DD841DC6A28700A219E1 /* Assets.xcassets */,
 				D624DD861DC6A28700A219E1 /* LaunchScreen.storyboard */,
-				D624DD891DC6A28700A219E1 /* Info.plist */,
 			);
 			path = SummInfo;
+			sourceTree = "<group>";
+		};
+		D6DAB24E1DC6B72500475060 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D6DAB24F1DC6B74900475060 /* Property Lists */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D6DAB24F1DC6B74900475060 /* Property Lists */ = {
+			isa = PBXGroup;
+			children = (
+				D624DD8F1DC6B4BC00A219E1 /* Config.plist */,
+				D624DD891DC6A28700A219E1 /* Info.plist */,
+			);
+			name = "Property Lists";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +308,7 @@
 				D624DD8E1DC6A28700A219E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
