@@ -16,6 +16,7 @@
 		D6DAB2531DC71A2C00475060 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAB2521DC71A2C00475060 /* APIRequest.swift */; };
 		D6DAB2551DC723F500475060 /* RiotAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAB2541DC723F500475060 /* RiotAPIRequest.swift */; };
 		D6DAB2571DC7252200475060 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAB2561DC7252200475060 /* Constants.swift */; };
+		D6DAB2591DC735B600475060 /* SummonerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAB2581DC735B600475060 /* SummonerRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D6DAB2521DC71A2C00475060 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		D6DAB2541DC723F500475060 /* RiotAPIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiotAPIRequest.swift; sourceTree = "<group>"; };
 		D6DAB2561DC7252200475060 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D6DAB2581DC735B600475060 /* SummonerRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummonerRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				D6DAB2521DC71A2C00475060 /* APIRequest.swift */,
 				D6DAB2541DC723F500475060 /* RiotAPIRequest.swift */,
+				D6DAB2581DC735B600475060 /* SummonerRequest.swift */,
 			);
 			name = "API Requests";
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6DAB2571DC7252200475060 /* Constants.swift in Sources */,
+				D6DAB2591DC735B600475060 /* SummonerRequest.swift in Sources */,
 				D6DAB2551DC723F500475060 /* RiotAPIRequest.swift in Sources */,
 				D624DD801DC6A28700A219E1 /* ViewController.swift in Sources */,
 				D6DAB2531DC71A2C00475060 /* APIRequest.swift in Sources */,

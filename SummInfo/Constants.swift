@@ -15,6 +15,10 @@ struct RegionNames {
     static let Korea = "KR"
 }
 
-let APIServers = [ RegionNames.NorthAmerica : "na.api.pvp.net",
-                   RegionNames.EuropeWest : "euw.api.pvp.net",
-                   RegionNames.Korea : "kr.api.pvp.net" ]
+let APIServers = [ RegionNames.NorthAmerica : "https://na.api.pvp.net",
+                   RegionNames.EuropeWest : "https://euw.api.pvp.net",
+                   RegionNames.Korea : "https://kr.api.pvp.net" ]
+
+struct APIVersions {
+    static let SummonerAPI = "v1.4"
+}

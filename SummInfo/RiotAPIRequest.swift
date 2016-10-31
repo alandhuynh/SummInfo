@@ -37,6 +37,12 @@ class RiotAPIRequest: APIRequest {
         return nil
     }
     
+    // Most Riot API endpoint paths begin with this standard base, which again is
+    // hard coded to North America
+    static func getStandardPathBase() -> String {
+        return "/api/lol/na"
+    }
+    
 }
 
 
