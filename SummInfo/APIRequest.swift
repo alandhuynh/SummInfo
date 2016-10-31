@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Alamofire
 
 class APIRequest {
     
@@ -32,6 +33,8 @@ class APIRequest {
         
         return url
     }
+    
+    var requestType: Alamofire.HTTPMethod?
     
     // Only the baseURL is mandatory for an APIRequest since the path and
     // parameters are an extension of the baseURL
