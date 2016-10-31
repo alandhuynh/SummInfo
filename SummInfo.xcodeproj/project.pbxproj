@@ -13,6 +13,9 @@
 		D624DD851DC6A28700A219E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D624DD841DC6A28700A219E1 /* Assets.xcassets */; };
 		D624DD881DC6A28700A219E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D624DD861DC6A28700A219E1 /* LaunchScreen.storyboard */; };
 		D624DD901DC6B4BC00A219E1 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = D624DD8F1DC6B4BC00A219E1 /* Config.plist */; };
+		D6DAB2531DC71A2C00475060 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAB2521DC71A2C00475060 /* APIRequest.swift */; };
+		D6DAB2551DC723F500475060 /* RiotAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAB2541DC723F500475060 /* RiotAPIRequest.swift */; };
+		D6DAB2571DC7252200475060 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAB2561DC7252200475060 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D624DD871DC6A28700A219E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D624DD891DC6A28700A219E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D624DD8F1DC6B4BC00A219E1 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		D6DAB2521DC71A2C00475060 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		D6DAB2541DC723F500475060 /* RiotAPIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiotAPIRequest.swift; sourceTree = "<group>"; };
+		D6DAB2561DC7252200475060 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		D624DD7C1DC6A28700A219E1 /* SummInfo */ = {
 			isa = PBXGroup;
 			children = (
+				D6DAB2511DC71A0A00475060 /* API Requests */,
 				D6DAB24E1DC6B72500475060 /* Resources */,
 				D624DD7D1DC6A28700A219E1 /* AppDelegate.swift */,
 				D624DD7F1DC6A28700A219E1 /* ViewController.swift */,
@@ -70,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				D6DAB24F1DC6B74900475060 /* Property Lists */,
+				D6DAB2561DC7252200475060 /* Constants.swift */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -81,6 +89,15 @@
 				D624DD891DC6A28700A219E1 /* Info.plist */,
 			);
 			name = "Property Lists";
+			sourceTree = "<group>";
+		};
+		D6DAB2511DC71A0A00475060 /* API Requests */ = {
+			isa = PBXGroup;
+			children = (
+				D6DAB2521DC71A2C00475060 /* APIRequest.swift */,
+				D6DAB2541DC723F500475060 /* RiotAPIRequest.swift */,
+			);
+			name = "API Requests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,7 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6DAB2571DC7252200475060 /* Constants.swift in Sources */,
+				D6DAB2551DC723F500475060 /* RiotAPIRequest.swift in Sources */,
 				D624DD801DC6A28700A219E1 /* ViewController.swift in Sources */,
+				D6DAB2531DC71A2C00475060 /* APIRequest.swift in Sources */,
 				D624DD7E1DC6A28700A219E1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
