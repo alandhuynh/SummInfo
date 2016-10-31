@@ -31,7 +31,8 @@ class RiotAPIRequest: APIRequest {
     fileprivate static func getApiKey() -> String? {
         if let configPath = Bundle.main.path(forResource: "Config", ofType: "plist"),
                 let config = NSDictionary.init(contentsOfFile: configPath) {
-            let apiKey = config["RiotAPI"]?["APIKey"] as? String
+            let riotAPISettings = config["RiotAPI"] as? NSDictionary
+            let apiKey = riotAPISettings?["APIKey"] as? String
             return apiKey
         }
         return nil
