@@ -10,9 +10,9 @@ import Foundation
 
 class APIRequest {
     
-    private var baseURL: String
-    private var path: String?
-    private var parameters: [String:String]?
+    fileprivate var baseURL: String
+    fileprivate var path: String?
+    fileprivate var parameters: [String:String]?
     
     // The requestURL property is the complete URL for the request, i.e.
     // the baseURL + the path + the parameters
@@ -23,7 +23,7 @@ class APIRequest {
             url += path!
         }
         
-        if let paramDict = parameters where !paramDict.isEmpty {
+        if let paramDict = parameters, !paramDict.isEmpty {
             url += "?"
             for (paramName, paramValue) in paramDict {
                 url += "\(paramName)=\(paramValue)&"
