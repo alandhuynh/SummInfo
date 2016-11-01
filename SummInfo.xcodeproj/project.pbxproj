@@ -15,6 +15,7 @@
 		D624DD901DC6B4BC00A219E1 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = D624DD8F1DC6B4BC00A219E1 /* Config.plist */; };
 		D62AB9E81DC7BDFD00D2A841 /* Summoner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62AB9E71DC7BDFD00D2A841 /* Summoner.swift */; };
 		D65761116A67CE3C767708E8 /* Pods_SummInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D567E39A2CCB812733222A /* Pods_SummInfo.framework */; };
+		D6A20E321DC860D800D985E2 /* skt_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A20E311DC860D800D985E2 /* skt_logo.png */; };
 		D6DAB2531DC71A2C00475060 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAB2521DC71A2C00475060 /* APIRequest.swift */; };
 		D6DAB2551DC723F500475060 /* RiotAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAB2541DC723F500475060 /* RiotAPIRequest.swift */; };
 		D6DAB2571DC7252200475060 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAB2561DC7252200475060 /* Constants.swift */; };
@@ -34,6 +35,7 @@
 		D624DD891DC6A28700A219E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D624DD8F1DC6B4BC00A219E1 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		D62AB9E71DC7BDFD00D2A841 /* Summoner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Summoner.swift; sourceTree = "<group>"; };
+		D6A20E311DC860D800D985E2 /* skt_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skt_logo.png; sourceTree = "<group>"; };
 		D6DAB2521DC71A2C00475060 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		D6DAB2541DC723F500475060 /* RiotAPIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiotAPIRequest.swift; sourceTree = "<group>"; };
 		D6DAB2561DC7252200475060 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -112,9 +114,18 @@
 			name = "API Requests";
 			sourceTree = "<group>";
 		};
+		D6A20E2E1DC85DF700D985E2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D6A20E311DC860D800D985E2 /* skt_logo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		D6DAB24E1DC6B72500475060 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D6A20E2E1DC85DF700D985E2 /* Images */,
 				D6DAB24F1DC6B74900475060 /* Property Lists */,
 				D6DAB2561DC7252200475060 /* Constants.swift */,
 			);
@@ -192,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A20E321DC860D800D985E2 /* skt_logo.png in Resources */,
 				D624DD901DC6B4BC00A219E1 /* Config.plist in Resources */,
 				D624DD881DC6A28700A219E1 /* LaunchScreen.storyboard in Resources */,
 				D624DD851DC6A28700A219E1 /* Assets.xcassets in Resources */,
@@ -229,7 +241,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		40A825B71DAA3AAEE022CBDE /* [CP] Copy Pods Resources */ = {
