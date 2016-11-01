@@ -44,7 +44,8 @@
 		D65CBEE51DC8A21300E4571C /* SILVER_III.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEC91DC8A21300E4571C /* SILVER_III.png */; };
 		D65CBEE61DC8A21300E4571C /* SILVER_IV.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBECA1DC8A21300E4571C /* SILVER_IV.png */; };
 		D65CBEE71DC8A21300E4571C /* SILVER_V.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBECB1DC8A21300E4571C /* SILVER_V.png */; };
-		D65CBEE81DC8A21300E4571C /* unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBECC1DC8A21300E4571C /* unknown.png */; };
+		D65CBEE81DC8A21300E4571C /* UNKNOWN.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBECC1DC8A21300E4571C /* UNKNOWN.png */; };
+		D65CBEEA1DC8BF5500E4571C /* SummonerInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65CBEE91DC8BF5500E4571C /* SummonerInfoTableViewController.swift */; };
 		D6A20E321DC860D800D985E2 /* skt_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A20E311DC860D800D985E2 /* skt_logo.png */; };
 		D6DAB2531DC71A2C00475060 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAB2521DC71A2C00475060 /* APIRequest.swift */; };
 		D6DAB2551DC723F500475060 /* RiotAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAB2541DC723F500475060 /* RiotAPIRequest.swift */; };
@@ -94,7 +95,8 @@
 		D65CBEC91DC8A21300E4571C /* SILVER_III.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SILVER_III.png; sourceTree = "<group>"; };
 		D65CBECA1DC8A21300E4571C /* SILVER_IV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SILVER_IV.png; sourceTree = "<group>"; };
 		D65CBECB1DC8A21300E4571C /* SILVER_V.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SILVER_V.png; sourceTree = "<group>"; };
-		D65CBECC1DC8A21300E4571C /* unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unknown.png; sourceTree = "<group>"; };
+		D65CBECC1DC8A21300E4571C /* UNKNOWN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UNKNOWN.png; sourceTree = "<group>"; };
+		D65CBEE91DC8BF5500E4571C /* SummonerInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SummonerInfoTableViewController.swift; path = ../SummonerInfoTableViewController.swift; sourceTree = "<group>"; };
 		D6A20E311DC860D800D985E2 /* skt_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skt_logo.png; sourceTree = "<group>"; };
 		D6DAB2521DC71A2C00475060 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		D6DAB2541DC723F500475060 /* RiotAPIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiotAPIRequest.swift; sourceTree = "<group>"; };
@@ -152,10 +154,10 @@
 		D624DD7C1DC6A28700A219E1 /* SummInfo */ = {
 			isa = PBXGroup;
 			children = (
+				D65CBEEB1DC8BF6900E4571C /* View Controllers */,
 				D62AB9E41DC7BA0A00D2A841 /* API Requests */,
 				D6DAB24E1DC6B72500475060 /* Resources */,
 				D624DD7D1DC6A28700A219E1 /* AppDelegate.swift */,
-				D624DD7F1DC6A28700A219E1 /* SearchViewController.swift */,
 				D624DD811DC6A28700A219E1 /* Main.storyboard */,
 				D624DD841DC6A28700A219E1 /* Assets.xcassets */,
 				D624DD861DC6A28700A219E1 /* LaunchScreen.storyboard */,
@@ -206,9 +208,18 @@
 				D65CBEC91DC8A21300E4571C /* SILVER_III.png */,
 				D65CBECA1DC8A21300E4571C /* SILVER_IV.png */,
 				D65CBECB1DC8A21300E4571C /* SILVER_V.png */,
-				D65CBECC1DC8A21300E4571C /* unknown.png */,
+				D65CBECC1DC8A21300E4571C /* UNKNOWN.png */,
 			);
 			name = "League Emblems";
+			sourceTree = "<group>";
+		};
+		D65CBEEB1DC8BF6900E4571C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D624DD7F1DC6A28700A219E1 /* SearchViewController.swift */,
+				D65CBEE91DC8BF5500E4571C /* SummonerInfoTableViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 		D6A20E2E1DC85DF700D985E2 /* Images */ = {
@@ -301,7 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D65CBEE81DC8A21300E4571C /* unknown.png in Resources */,
+				D65CBEE81DC8A21300E4571C /* UNKNOWN.png in Resources */,
 				D6A20E321DC860D800D985E2 /* skt_logo.png in Resources */,
 				D65CBEDD1DC8A21300E4571C /* MASTER_I.png in Resources */,
 				D65CBED71DC8A21300E4571C /* DIAMOND_V.png in Resources */,
@@ -399,6 +410,7 @@
 				D6DAB2551DC723F500475060 /* RiotAPIRequest.swift in Sources */,
 				D624DD801DC6A28700A219E1 /* SearchViewController.swift in Sources */,
 				D6DAB2531DC71A2C00475060 /* APIRequest.swift in Sources */,
+				D65CBEEA1DC8BF5500E4571C /* SummonerInfoTableViewController.swift in Sources */,
 				D624DD7E1DC6A28700A219E1 /* AppDelegate.swift in Sources */,
 				D65CBEAF1DC8992300E4571C /* GameImageRequest.swift in Sources */,
 			);

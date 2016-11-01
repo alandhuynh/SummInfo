@@ -13,7 +13,7 @@ class LeagueRequest: RiotAPIRequest {
     init(summonerIds: String...) {
         // The summoner IDs should be comma separated
         let summonerIdString = summonerIds.joined(separator: ",")
-        let path = RiotAPIRequest.getStandardPathBase() + "/\(APIVersions.LeagueAPI)" +
+        let path = RiotAPIRequest.getStandardPathBase() + "/\(APIVersions.LeagueAPI)/" +
         "league/by-summoner/\(summonerIdString)/entry"
         
         super.init(path: path, parameters: nil)
