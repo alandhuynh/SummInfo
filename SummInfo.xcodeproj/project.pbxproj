@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D624DD7E1DC6A28700A219E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624DD7D1DC6A28700A219E1 /* AppDelegate.swift */; };
-		D624DD801DC6A28700A219E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624DD7F1DC6A28700A219E1 /* ViewController.swift */; };
+		D624DD801DC6A28700A219E1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624DD7F1DC6A28700A219E1 /* SearchViewController.swift */; };
 		D624DD831DC6A28700A219E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D624DD811DC6A28700A219E1 /* Main.storyboard */; };
 		D624DD851DC6A28700A219E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D624DD841DC6A28700A219E1 /* Assets.xcassets */; };
 		D624DD881DC6A28700A219E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D624DD861DC6A28700A219E1 /* LaunchScreen.storyboard */; };
@@ -28,7 +28,7 @@
 		C4D567E39A2CCB812733222A /* Pods_SummInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SummInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D624DD7A1DC6A28700A219E1 /* SummInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D624DD7D1DC6A28700A219E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D624DD7F1DC6A28700A219E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D624DD7F1DC6A28700A219E1 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		D624DD821DC6A28700A219E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D624DD841DC6A28700A219E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D624DD871DC6A28700A219E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 				D62AB9E41DC7BA0A00D2A841 /* API Requests */,
 				D6DAB24E1DC6B72500475060 /* Resources */,
 				D624DD7D1DC6A28700A219E1 /* AppDelegate.swift */,
-				D624DD7F1DC6A28700A219E1 /* ViewController.swift */,
+				D624DD7F1DC6A28700A219E1 /* SearchViewController.swift */,
 				D624DD811DC6A28700A219E1 /* Main.storyboard */,
 				D624DD841DC6A28700A219E1 /* Assets.xcassets */,
 				D624DD861DC6A28700A219E1 /* LaunchScreen.storyboard */,
@@ -270,7 +270,7 @@
 				D6DAB2571DC7252200475060 /* Constants.swift in Sources */,
 				D6DAB2591DC735B600475060 /* SummonerRequest.swift in Sources */,
 				D6DAB2551DC723F500475060 /* RiotAPIRequest.swift in Sources */,
-				D624DD801DC6A28700A219E1 /* ViewController.swift in Sources */,
+				D624DD801DC6A28700A219E1 /* SearchViewController.swift in Sources */,
 				D6DAB2531DC71A2C00475060 /* APIRequest.swift in Sources */,
 				D624DD7E1DC6A28700A219E1 /* AppDelegate.swift in Sources */,
 			);
@@ -392,6 +392,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8545715A675FFFC93FB8CEB4 /* Pods-SummInfo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SummInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -405,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2BA43AD03CFE85604F9963AD /* Pods-SummInfo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SummInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

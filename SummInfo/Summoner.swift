@@ -35,6 +35,17 @@ class Summoner {
     fileprivate var stdSummonerName: String
     fileprivate var summonerInfo: SummonerInfo?
     
+    var stdName: String {
+        return stdSummonerName
+    }
+    
+    var name: String? {
+        if let info = summonerInfo, let summonerName = info.name {
+            return summonerName
+        }
+        return nil
+    }
+    
     init(summonerName: String) {
         // We should standardize the Summoner name because names are used in standardized
         // format in the Riot API, so we'll need it in standard form when processing the
