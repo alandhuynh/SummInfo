@@ -20,10 +20,14 @@ class SummonerRequest: RiotAPIRequest {
         // and without spaces
         // Additionally, summoner names should be comma separated
         path += summonerNames.map {
-                $0.lowercased().replacingOccurrences(of: " ", with: "")
+                SummonerRequest.standardizeSummonerName(name: $0)
             }.joined(separator: ",")
         
         super.init(path: path, parameters: nil)
+    }
+    
+    static func standardizeSummonerName(name: String) -> String {
+        return name.lowercased().replacingOccurrences(of: " ", with: "")
     }
     
 }
