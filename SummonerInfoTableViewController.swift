@@ -65,7 +65,7 @@ class SummonerInfoTableViewController: UITableViewController {
                     
                     let winPercentage = Double(leagueInfo.numWins!) /
                         Double((leagueInfo.numWins! + leagueInfo.numLosses!)) * 100
-                    winPercentageLabel.text = "\(round(winPercentage))% Win Rate"
+                    winPercentageLabel.text = "(\(round(winPercentage))% Win Rate)"
                     
                     numWinsLabel.text = leagueInfo.numWins!.description
                     numLossesLabel.text = leagueInfo.numLosses!.description
