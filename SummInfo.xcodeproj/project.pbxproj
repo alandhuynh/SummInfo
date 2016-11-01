@@ -15,6 +15,36 @@
 		D624DD901DC6B4BC00A219E1 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = D624DD8F1DC6B4BC00A219E1 /* Config.plist */; };
 		D62AB9E81DC7BDFD00D2A841 /* Summoner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62AB9E71DC7BDFD00D2A841 /* Summoner.swift */; };
 		D65761116A67CE3C767708E8 /* Pods_SummInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D567E39A2CCB812733222A /* Pods_SummInfo.framework */; };
+		D65CBEAD1DC891F100E4571C /* LeagueRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65CBEAC1DC891F100E4571C /* LeagueRequest.swift */; };
+		D65CBEAF1DC8992300E4571C /* GameImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65CBEAE1DC8992300E4571C /* GameImageRequest.swift */; };
+		D65CBECD1DC8A21300E4571C /* BRONZE_I.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEB11DC8A21300E4571C /* BRONZE_I.png */; };
+		D65CBECE1DC8A21300E4571C /* BRONZE_II.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEB21DC8A21300E4571C /* BRONZE_II.png */; };
+		D65CBECF1DC8A21300E4571C /* BRONZE_III.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEB31DC8A21300E4571C /* BRONZE_III.png */; };
+		D65CBED01DC8A21300E4571C /* BRONZE_IV.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEB41DC8A21300E4571C /* BRONZE_IV.png */; };
+		D65CBED11DC8A21300E4571C /* BRONZE_V.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEB51DC8A21300E4571C /* BRONZE_V.png */; };
+		D65CBED21DC8A21300E4571C /* CHALLENGER_I.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEB61DC8A21300E4571C /* CHALLENGER_I.png */; };
+		D65CBED31DC8A21300E4571C /* DIAMOND_I.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEB71DC8A21300E4571C /* DIAMOND_I.png */; };
+		D65CBED41DC8A21300E4571C /* DIAMOND_II.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEB81DC8A21300E4571C /* DIAMOND_II.png */; };
+		D65CBED51DC8A21300E4571C /* DIAMOND_III.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEB91DC8A21300E4571C /* DIAMOND_III.png */; };
+		D65CBED61DC8A21300E4571C /* DIAMOND_IV.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEBA1DC8A21300E4571C /* DIAMOND_IV.png */; };
+		D65CBED71DC8A21300E4571C /* DIAMOND_V.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEBB1DC8A21300E4571C /* DIAMOND_V.png */; };
+		D65CBED81DC8A21300E4571C /* GOLD_I.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEBC1DC8A21300E4571C /* GOLD_I.png */; };
+		D65CBED91DC8A21300E4571C /* GOLD_II.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEBD1DC8A21300E4571C /* GOLD_II.png */; };
+		D65CBEDA1DC8A21300E4571C /* GOLD_III.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEBE1DC8A21300E4571C /* GOLD_III.png */; };
+		D65CBEDB1DC8A21300E4571C /* GOLD_IV.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEBF1DC8A21300E4571C /* GOLD_IV.png */; };
+		D65CBEDC1DC8A21300E4571C /* GOLD_V.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEC01DC8A21300E4571C /* GOLD_V.png */; };
+		D65CBEDD1DC8A21300E4571C /* MASTER_I.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEC11DC8A21300E4571C /* MASTER_I.png */; };
+		D65CBEDE1DC8A21300E4571C /* PLATINUM_I.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEC21DC8A21300E4571C /* PLATINUM_I.png */; };
+		D65CBEDF1DC8A21300E4571C /* PLATINUM_II.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEC31DC8A21300E4571C /* PLATINUM_II.png */; };
+		D65CBEE01DC8A21300E4571C /* PLATINUM_III.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEC41DC8A21300E4571C /* PLATINUM_III.png */; };
+		D65CBEE11DC8A21300E4571C /* PLATINUM_IV.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEC51DC8A21300E4571C /* PLATINUM_IV.png */; };
+		D65CBEE21DC8A21300E4571C /* PLATINUM_V.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEC61DC8A21300E4571C /* PLATINUM_V.png */; };
+		D65CBEE31DC8A21300E4571C /* SILVER_I.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEC71DC8A21300E4571C /* SILVER_I.png */; };
+		D65CBEE41DC8A21300E4571C /* SILVER_II.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEC81DC8A21300E4571C /* SILVER_II.png */; };
+		D65CBEE51DC8A21300E4571C /* SILVER_III.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBEC91DC8A21300E4571C /* SILVER_III.png */; };
+		D65CBEE61DC8A21300E4571C /* SILVER_IV.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBECA1DC8A21300E4571C /* SILVER_IV.png */; };
+		D65CBEE71DC8A21300E4571C /* SILVER_V.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBECB1DC8A21300E4571C /* SILVER_V.png */; };
+		D65CBEE81DC8A21300E4571C /* unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBECC1DC8A21300E4571C /* unknown.png */; };
 		D6A20E321DC860D800D985E2 /* skt_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A20E311DC860D800D985E2 /* skt_logo.png */; };
 		D6DAB2531DC71A2C00475060 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAB2521DC71A2C00475060 /* APIRequest.swift */; };
 		D6DAB2551DC723F500475060 /* RiotAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAB2541DC723F500475060 /* RiotAPIRequest.swift */; };
@@ -35,6 +65,36 @@
 		D624DD891DC6A28700A219E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D624DD8F1DC6B4BC00A219E1 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		D62AB9E71DC7BDFD00D2A841 /* Summoner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Summoner.swift; sourceTree = "<group>"; };
+		D65CBEAC1DC891F100E4571C /* LeagueRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeagueRequest.swift; sourceTree = "<group>"; };
+		D65CBEAE1DC8992300E4571C /* GameImageRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameImageRequest.swift; sourceTree = "<group>"; };
+		D65CBEB11DC8A21300E4571C /* BRONZE_I.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BRONZE_I.png; sourceTree = "<group>"; };
+		D65CBEB21DC8A21300E4571C /* BRONZE_II.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BRONZE_II.png; sourceTree = "<group>"; };
+		D65CBEB31DC8A21300E4571C /* BRONZE_III.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BRONZE_III.png; sourceTree = "<group>"; };
+		D65CBEB41DC8A21300E4571C /* BRONZE_IV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BRONZE_IV.png; sourceTree = "<group>"; };
+		D65CBEB51DC8A21300E4571C /* BRONZE_V.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BRONZE_V.png; sourceTree = "<group>"; };
+		D65CBEB61DC8A21300E4571C /* CHALLENGER_I.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CHALLENGER_I.png; sourceTree = "<group>"; };
+		D65CBEB71DC8A21300E4571C /* DIAMOND_I.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DIAMOND_I.png; sourceTree = "<group>"; };
+		D65CBEB81DC8A21300E4571C /* DIAMOND_II.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DIAMOND_II.png; sourceTree = "<group>"; };
+		D65CBEB91DC8A21300E4571C /* DIAMOND_III.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DIAMOND_III.png; sourceTree = "<group>"; };
+		D65CBEBA1DC8A21300E4571C /* DIAMOND_IV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DIAMOND_IV.png; sourceTree = "<group>"; };
+		D65CBEBB1DC8A21300E4571C /* DIAMOND_V.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DIAMOND_V.png; sourceTree = "<group>"; };
+		D65CBEBC1DC8A21300E4571C /* GOLD_I.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GOLD_I.png; sourceTree = "<group>"; };
+		D65CBEBD1DC8A21300E4571C /* GOLD_II.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GOLD_II.png; sourceTree = "<group>"; };
+		D65CBEBE1DC8A21300E4571C /* GOLD_III.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GOLD_III.png; sourceTree = "<group>"; };
+		D65CBEBF1DC8A21300E4571C /* GOLD_IV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GOLD_IV.png; sourceTree = "<group>"; };
+		D65CBEC01DC8A21300E4571C /* GOLD_V.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GOLD_V.png; sourceTree = "<group>"; };
+		D65CBEC11DC8A21300E4571C /* MASTER_I.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MASTER_I.png; sourceTree = "<group>"; };
+		D65CBEC21DC8A21300E4571C /* PLATINUM_I.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PLATINUM_I.png; sourceTree = "<group>"; };
+		D65CBEC31DC8A21300E4571C /* PLATINUM_II.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PLATINUM_II.png; sourceTree = "<group>"; };
+		D65CBEC41DC8A21300E4571C /* PLATINUM_III.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PLATINUM_III.png; sourceTree = "<group>"; };
+		D65CBEC51DC8A21300E4571C /* PLATINUM_IV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PLATINUM_IV.png; sourceTree = "<group>"; };
+		D65CBEC61DC8A21300E4571C /* PLATINUM_V.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PLATINUM_V.png; sourceTree = "<group>"; };
+		D65CBEC71DC8A21300E4571C /* SILVER_I.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SILVER_I.png; sourceTree = "<group>"; };
+		D65CBEC81DC8A21300E4571C /* SILVER_II.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SILVER_II.png; sourceTree = "<group>"; };
+		D65CBEC91DC8A21300E4571C /* SILVER_III.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SILVER_III.png; sourceTree = "<group>"; };
+		D65CBECA1DC8A21300E4571C /* SILVER_IV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SILVER_IV.png; sourceTree = "<group>"; };
+		D65CBECB1DC8A21300E4571C /* SILVER_V.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SILVER_V.png; sourceTree = "<group>"; };
+		D65CBECC1DC8A21300E4571C /* unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unknown.png; sourceTree = "<group>"; };
 		D6A20E311DC860D800D985E2 /* skt_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skt_logo.png; sourceTree = "<group>"; };
 		D6DAB2521DC71A2C00475060 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		D6DAB2541DC723F500475060 /* RiotAPIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiotAPIRequest.swift; sourceTree = "<group>"; };
@@ -110,13 +170,51 @@
 				D6DAB2521DC71A2C00475060 /* APIRequest.swift */,
 				D6DAB2541DC723F500475060 /* RiotAPIRequest.swift */,
 				D6DAB2581DC735B600475060 /* SummonerRequest.swift */,
+				D65CBEAC1DC891F100E4571C /* LeagueRequest.swift */,
+				D65CBEAE1DC8992300E4571C /* GameImageRequest.swift */,
 			);
 			name = "API Requests";
+			sourceTree = "<group>";
+		};
+		D65CBEB01DC8A1F500E4571C /* League Emblems */ = {
+			isa = PBXGroup;
+			children = (
+				D65CBEB11DC8A21300E4571C /* BRONZE_I.png */,
+				D65CBEB21DC8A21300E4571C /* BRONZE_II.png */,
+				D65CBEB31DC8A21300E4571C /* BRONZE_III.png */,
+				D65CBEB41DC8A21300E4571C /* BRONZE_IV.png */,
+				D65CBEB51DC8A21300E4571C /* BRONZE_V.png */,
+				D65CBEB61DC8A21300E4571C /* CHALLENGER_I.png */,
+				D65CBEB71DC8A21300E4571C /* DIAMOND_I.png */,
+				D65CBEB81DC8A21300E4571C /* DIAMOND_II.png */,
+				D65CBEB91DC8A21300E4571C /* DIAMOND_III.png */,
+				D65CBEBA1DC8A21300E4571C /* DIAMOND_IV.png */,
+				D65CBEBB1DC8A21300E4571C /* DIAMOND_V.png */,
+				D65CBEBC1DC8A21300E4571C /* GOLD_I.png */,
+				D65CBEBD1DC8A21300E4571C /* GOLD_II.png */,
+				D65CBEBE1DC8A21300E4571C /* GOLD_III.png */,
+				D65CBEBF1DC8A21300E4571C /* GOLD_IV.png */,
+				D65CBEC01DC8A21300E4571C /* GOLD_V.png */,
+				D65CBEC11DC8A21300E4571C /* MASTER_I.png */,
+				D65CBEC21DC8A21300E4571C /* PLATINUM_I.png */,
+				D65CBEC31DC8A21300E4571C /* PLATINUM_II.png */,
+				D65CBEC41DC8A21300E4571C /* PLATINUM_III.png */,
+				D65CBEC51DC8A21300E4571C /* PLATINUM_IV.png */,
+				D65CBEC61DC8A21300E4571C /* PLATINUM_V.png */,
+				D65CBEC71DC8A21300E4571C /* SILVER_I.png */,
+				D65CBEC81DC8A21300E4571C /* SILVER_II.png */,
+				D65CBEC91DC8A21300E4571C /* SILVER_III.png */,
+				D65CBECA1DC8A21300E4571C /* SILVER_IV.png */,
+				D65CBECB1DC8A21300E4571C /* SILVER_V.png */,
+				D65CBECC1DC8A21300E4571C /* unknown.png */,
+			);
+			name = "League Emblems";
 			sourceTree = "<group>";
 		};
 		D6A20E2E1DC85DF700D985E2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D65CBEB01DC8A1F500E4571C /* League Emblems */,
 				D6A20E311DC860D800D985E2 /* skt_logo.png */,
 			);
 			name = Images;
@@ -203,11 +301,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D65CBEE81DC8A21300E4571C /* unknown.png in Resources */,
 				D6A20E321DC860D800D985E2 /* skt_logo.png in Resources */,
+				D65CBEDD1DC8A21300E4571C /* MASTER_I.png in Resources */,
+				D65CBED71DC8A21300E4571C /* DIAMOND_V.png in Resources */,
+				D65CBEE61DC8A21300E4571C /* SILVER_IV.png in Resources */,
+				D65CBECD1DC8A21300E4571C /* BRONZE_I.png in Resources */,
+				D65CBEE11DC8A21300E4571C /* PLATINUM_IV.png in Resources */,
+				D65CBEE41DC8A21300E4571C /* SILVER_II.png in Resources */,
+				D65CBEE51DC8A21300E4571C /* SILVER_III.png in Resources */,
+				D65CBED41DC8A21300E4571C /* DIAMOND_II.png in Resources */,
+				D65CBEE71DC8A21300E4571C /* SILVER_V.png in Resources */,
+				D65CBED61DC8A21300E4571C /* DIAMOND_IV.png in Resources */,
+				D65CBEE01DC8A21300E4571C /* PLATINUM_III.png in Resources */,
+				D65CBEDE1DC8A21300E4571C /* PLATINUM_I.png in Resources */,
 				D624DD901DC6B4BC00A219E1 /* Config.plist in Resources */,
+				D65CBEDB1DC8A21300E4571C /* GOLD_IV.png in Resources */,
+				D65CBECF1DC8A21300E4571C /* BRONZE_III.png in Resources */,
+				D65CBED01DC8A21300E4571C /* BRONZE_IV.png in Resources */,
+				D65CBED81DC8A21300E4571C /* GOLD_I.png in Resources */,
 				D624DD881DC6A28700A219E1 /* LaunchScreen.storyboard in Resources */,
+				D65CBEDF1DC8A21300E4571C /* PLATINUM_II.png in Resources */,
+				D65CBEE31DC8A21300E4571C /* SILVER_I.png in Resources */,
 				D624DD851DC6A28700A219E1 /* Assets.xcassets in Resources */,
+				D65CBED51DC8A21300E4571C /* DIAMOND_III.png in Resources */,
 				D624DD831DC6A28700A219E1 /* Main.storyboard in Resources */,
+				D65CBED31DC8A21300E4571C /* DIAMOND_I.png in Resources */,
+				D65CBED21DC8A21300E4571C /* CHALLENGER_I.png in Resources */,
+				D65CBED91DC8A21300E4571C /* GOLD_II.png in Resources */,
+				D65CBED11DC8A21300E4571C /* BRONZE_V.png in Resources */,
+				D65CBEE21DC8A21300E4571C /* PLATINUM_V.png in Resources */,
+				D65CBECE1DC8A21300E4571C /* BRONZE_II.png in Resources */,
+				D65CBEDA1DC8A21300E4571C /* GOLD_III.png in Resources */,
+				D65CBEDC1DC8A21300E4571C /* GOLD_V.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,11 +394,13 @@
 			files = (
 				D62AB9E81DC7BDFD00D2A841 /* Summoner.swift in Sources */,
 				D6DAB2571DC7252200475060 /* Constants.swift in Sources */,
+				D65CBEAD1DC891F100E4571C /* LeagueRequest.swift in Sources */,
 				D6DAB2591DC735B600475060 /* SummonerRequest.swift in Sources */,
 				D6DAB2551DC723F500475060 /* RiotAPIRequest.swift in Sources */,
 				D624DD801DC6A28700A219E1 /* SearchViewController.swift in Sources */,
 				D6DAB2531DC71A2C00475060 /* APIRequest.swift in Sources */,
 				D624DD7E1DC6A28700A219E1 /* AppDelegate.swift in Sources */,
+				D65CBEAF1DC8992300E4571C /* GameImageRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

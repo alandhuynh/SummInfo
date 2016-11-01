@@ -15,10 +15,16 @@ struct RegionNames {
     static let Korea = "KR"
 }
 
+// Data Dragon is the name of Riot's service for images
+let DataDragon = "Data Dragon"
+
 let APIServers = [ RegionNames.NorthAmerica : "https://na.api.pvp.net",
                    RegionNames.EuropeWest : "https://euw.api.pvp.net",
-                   RegionNames.Korea : "https://kr.api.pvp.net" ]
+                   RegionNames.Korea : "https://kr.api.pvp.net",
+                   DataDragon : "http://ddragon.leagueoflegends.com/cdn"]
 
 struct APIVersions {
     static let SummonerAPI = "v1.4"
+    static let LeagueAPI = "v2.5"
+    static let DataDragon = "6.21.1"
 }

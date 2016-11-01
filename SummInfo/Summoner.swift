@@ -31,6 +31,15 @@ struct SummonerInfo {
     }
 }
 
+struct LeagueInfo {
+    var name: String?
+    var tier: String?
+    var division: String?
+    var numWins: Int?
+    var numLosses: Int?
+    var emblem: UIImage?
+}
+
 class Summoner {
     fileprivate var stdSummonerName: String
     fileprivate var summonerInfo: SummonerInfo?
@@ -45,6 +54,8 @@ class Summoner {
         }
         return nil
     }
+    
+    var profileIcon: UIImage?
     
     init(summonerName: String) {
         // We should standardize the Summoner name because names are used in standardized
