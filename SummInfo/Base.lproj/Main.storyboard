@@ -226,13 +226,13 @@
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LGk-TS-ICR" userLabel="WinPercentageLabel">
                                                             <rect key="frame" x="180" y="0.0" width="175" height="18"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.65342133620689657" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.84916487068965518" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="AWN-AB-XqK" firstAttribute="centerX" secondItem="lzZ-iV-Gw8" secondAttribute="centerX" id="Qas-J2-mFi"/>
                                                 <constraint firstItem="AWN-AB-XqK" firstAttribute="centerY" secondItem="lzZ-iV-Gw8" secondAttribute="centerY" id="XYq-vS-Rfo"/>
@@ -262,13 +262,13 @@
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAF-Pd-tHr" userLabel="NumWinsLabel">
                                                             <rect key="frame" x="180" y="0.0" width="175" height="18"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.50366379309655174" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.60460668102758619" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="Uoq-4f-ORe" firstAttribute="centerY" secondItem="7ol-u3-gZ2" secondAttribute="centerY" id="Dno-uq-dv2"/>
                                                 <constraint firstItem="Uoq-4f-ORe" firstAttribute="centerX" secondItem="7ol-u3-gZ2" secondAttribute="centerX" id="dWr-06-4E9"/>
@@ -298,13 +298,13 @@
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLt-KM-YB3" userLabel="NumLossesLabel">
                                                             <rect key="frame" x="180" y="0.0" width="175" height="18"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.65342133619999998" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.79935344826896548" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="6cX-AR-Zwv" firstAttribute="top" secondItem="01q-Wh-k37" secondAttribute="topMargin" constant="-2" id="023-iO-hg6"/>
                                                 <constraint firstItem="6cX-AR-Zwv" firstAttribute="centerX" secondItem="01q-Wh-k37" secondAttribute="centerX" id="WMy-uS-m1p"/>
