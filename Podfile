@@ -6,7 +6,7 @@ target 'SummInfo' do
   use_frameworks!
 
   # Pods for SummInfo
-  pod ‘Alamofire’, ‘~> 4.0’
-  pod ‘SwiftyJSON’
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
 
 end
