@@ -46,6 +46,7 @@
 		D65CBEE71DC8A21300E4571C /* SILVER_V.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBECB1DC8A21300E4571C /* SILVER_V.png */; };
 		D65CBEE81DC8A21300E4571C /* UNKNOWN.png in Resources */ = {isa = PBXBuildFile; fileRef = D65CBECC1DC8A21300E4571C /* UNKNOWN.png */; };
 		D65CBEEA1DC8BF5500E4571C /* SummonerInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65CBEE91DC8BF5500E4571C /* SummonerInfoTableViewController.swift */; };
+		D65CBEEE1DCE502100E4571C /* JSONUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65CBEED1DCE502100E4571C /* JSONUtility.swift */; };
 		D6A20E321DC860D800D985E2 /* skt_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A20E311DC860D800D985E2 /* skt_logo.png */; };
 		D6DAB2531DC71A2C00475060 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAB2521DC71A2C00475060 /* APIRequest.swift */; };
 		D6DAB2551DC723F500475060 /* RiotAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAB2541DC723F500475060 /* RiotAPIRequest.swift */; };
@@ -97,6 +98,7 @@
 		D65CBECB1DC8A21300E4571C /* SILVER_V.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SILVER_V.png; sourceTree = "<group>"; };
 		D65CBECC1DC8A21300E4571C /* UNKNOWN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UNKNOWN.png; sourceTree = "<group>"; };
 		D65CBEE91DC8BF5500E4571C /* SummonerInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SummonerInfoTableViewController.swift; path = ../SummonerInfoTableViewController.swift; sourceTree = "<group>"; };
+		D65CBEED1DCE502100E4571C /* JSONUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONUtility.swift; sourceTree = "<group>"; };
 		D6A20E311DC860D800D985E2 /* skt_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skt_logo.png; sourceTree = "<group>"; };
 		D6DAB2521DC71A2C00475060 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		D6DAB2541DC723F500475060 /* RiotAPIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiotAPIRequest.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 		D624DD7C1DC6A28700A219E1 /* SummInfo */ = {
 			isa = PBXGroup;
 			children = (
+				D65CBEEC1DCE4FEA00E4571C /* Helper Classes */,
 				D65CBEEB1DC8BF6900E4571C /* View Controllers */,
 				D62AB9E41DC7BA0A00D2A841 /* API Requests */,
 				D6DAB24E1DC6B72500475060 /* Resources */,
@@ -220,6 +223,14 @@
 				D65CBEE91DC8BF5500E4571C /* SummonerInfoTableViewController.swift */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D65CBEEC1DCE4FEA00E4571C /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D65CBEED1DCE502100E4571C /* JSONUtility.swift */,
+			);
+			name = "Helper Classes";
 			sourceTree = "<group>";
 		};
 		D6A20E2E1DC85DF700D985E2 /* Images */ = {
@@ -410,6 +421,7 @@
 				D6DAB2551DC723F500475060 /* RiotAPIRequest.swift in Sources */,
 				D624DD801DC6A28700A219E1 /* SearchViewController.swift in Sources */,
 				D6DAB2531DC71A2C00475060 /* APIRequest.swift in Sources */,
+				D65CBEEE1DCE502100E4571C /* JSONUtility.swift in Sources */,
 				D65CBEEA1DC8BF5500E4571C /* SummonerInfoTableViewController.swift in Sources */,
 				D624DD7E1DC6A28700A219E1 /* AppDelegate.swift in Sources */,
 				D65CBEAF1DC8992300E4571C /* GameImageRequest.swift in Sources */,
